@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+
+<head>
+    <title>Leyout de site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: #668;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+
+    section {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: #ccc;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background: #f1f1f1;
+        padding: 10px;
+    }
+
+    footer {
+        background-color: #777;
+        padding: 100;
+        text-align: center;
+        color: white;
+    }
+
+    @media (max-width: 600px) {
+        section {
+            -webkit-flex-direction: column;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <h2>Cidades</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Porto Ferreira</a></li>
+                <li><a href="#">São Paulo</a></li>
+                <li><a href="#">Paracatu</a></li>
+            </ul>
+        </nav>
+    </section>
+    <br>
+
+    <div class="sep" style="display: flex;">
+        <img src="https://fatecspgov-my.sharepoint.com/:i:/r/personal/kaua_tangerina_fatec_sp_gov_br/Documents/ft1.jpg?csf=1&web=1&e=WSc04D"
+            alt="Imagem de Porto Ferreira" style="width: 25%;">
+        <div style="text-align: center;">
+            <h2 style="font-size: 30px;">Porto Ferreira</h2>
+            <p style="font-size: 30px;">O município de Porto Ferreira, estado de São Paulo, Brasil, possui área de 244
+                km², e está situado em
+                posição
+                nordeste em relação a capital do Estado, na zona fisiográfica de Piracicaba. Ponto mais alto do
+                município é
+                o Morro Alto, com 798 metros. O ponto mais baixo é a Ilha dos Patos, com 545 metros.</p>
+        </div>
+    </div>
+    <br>
+
+    <div style="display: flex;">
+        <img src="https://fatecspgov-my.sharepoint.com/:i:/r/personal/kaua_tangerina_fatec_sp_gov_br/Documents/ft2.png?csf=1&web=1&e=4wMdzV"
+            alt="Foto de São Paulo" style="width: 25%;">
+        <div style="text-align: center;">
+            <h2 style="font-size: 30px;">São Paulo</h2>
+            <p style="font-size: 30px;">São Paulo é um município brasileiro e capital do estado de mesmo nome,
+                localizado na Região Sudeste do país. A cidade é considerada uma metrópole global, sendo ainda a mais
+                populosa do Brasil e uma das maiores do mundo, com mais de 12 milhões de habitantes.</p>
+        </div>
+    </div>
+
+    <div style="display: flex;">
+        <img src="https://fatecspgov-my.sharepoint.com/:i:/r/personal/kaua_tangerina_fatec_sp_gov_br/Documents/ft3.png?csf=1&web=1&e=8U3AR1"
+            alt="Foto de Paracatu" style="width: 25%;">
+        <div style="text-align: center;">
+            <h2 style="font-size: 30px;">Paracatu</h2>
+            <p style="font-size: 30px;">Paracatu é um município brasileiro do estado de Minas Gerais, localizado na
+                Mesorregião Noroeste do estado. Paracatu é o principal município da sua microrregião, sendo um polo
+                atrativo educacional e de trabalho devido à presença de várias instituições de ensino e de empresas.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <footer>
+        <h2>Mais Informações</h2>
+        <a
+            href="https://camaraportoferreira.sp.gov.br/artigo/?id=13291#:~:text=O%20munic%C3%ADpio%20de%20Porto%20Ferreira%2C%20estado%20de%20S%C3%A3o%20Paulo%2C%20Brasil,na%20zona%20fisiogr%C3%A1fica%20de%20Piracicaba.&text=Ponto%20mais%20alto%20do%20munic%C3%ADpio,dos%20Patos%2C%20com%20545%20metros.">Porto
+            Ferreira, </a>
+        <a
+            href="https://brasilescola.uol.com.br/brasil/cidade-de-sao-paulo.htm#:~:text=S%C3%A3o%20Paulo%20%C3%A9%20um%20munic%C3%ADpio,de%2012%20milh%C3%B5es%20de%20habitantes.">São
+            Paulo, </a>
+        <a href="http://portal.iphan.gov.br/pagina/detalhes/1495/">Paracautu</a>
+
+    </footer>
+</body>
+
+</html>
